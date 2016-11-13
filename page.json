@@ -1,0 +1,23 @@
+{
+	"html": {
+		"head": {
+			"tittle": "Json html page",
+			"styles":[
+				{"href": "http://example.com/css/style.css"}
+			],
+
+			"scripts": [
+				{"src": "http://example.com/js/script.js"}
+			]
+		},
+
+		"body": {
+			"div":{
+				"id": "container",
+				"class": "container",
+				"contents": "partials.home"
+			}
+		}
+
+	}
+}
